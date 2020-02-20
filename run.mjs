@@ -41,7 +41,7 @@ function walkSync(currentDirPath, callback) {
 }
 
 var files = [];
-walkSync('../tr-assessment/', function(filePath, stat) {
+walkSync('/lint-target/', function(filePath, stat) {
   files.push(filePath);
 });
 
